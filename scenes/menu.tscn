@@ -14,23 +14,23 @@ axis_stretch_horizontal = 2
 axis_stretch_vertical = 2
 modulate_color = Color(0.605274, 0.605274, 0.605274, 1)
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mhnvy"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_70i5f"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mj5lg"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_v86rl"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_13sgg"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i6lef"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g3eks"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4ytvr"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ufwb2"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4ytvr"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g3eks"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i6lef"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_13sgg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_v86rl"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mj5lg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_70i5f"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mhnvy"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_v86rl"]
 font_size = 82
@@ -80,62 +80,62 @@ theme_override_constants/separation = 10
 [node name="play" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 4
-theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_colors/font_color = Color(1, 1, 1, 0.478431)
 theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
 theme_override_colors/font_pressed_color = Color(0.8, 0, 0, 0.933333)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("3_mhnvy")
 theme_override_font_sizes/font_size = 66
-theme_override_styles/focus = SubResource("StyleBoxEmpty_mhnvy")
-theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_70i5f")
-theme_override_styles/disabled = SubResource("StyleBoxEmpty_mj5lg")
-theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_v86rl")
-theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_13sgg")
-theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_i6lef")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_g3eks")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_ufwb2")
 theme_override_styles/normal = SubResource("StyleBoxEmpty_4ytvr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ufwb2")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_g3eks")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_i6lef")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_13sgg")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_v86rl")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_mj5lg")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_70i5f")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_mhnvy")
 text = "Play"
 
 [node name="fun" type="Button" parent="VBoxContainer"]
 visible = false
 layout_mode = 2
 size_flags_vertical = 4
-theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_colors/font_color = Color(1, 1, 1, 0.478431)
 theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
 theme_override_colors/font_pressed_color = Color(0.8, 0, 0, 0.933333)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("3_mhnvy")
 theme_override_font_sizes/font_size = 66
-theme_override_styles/focus = SubResource("StyleBoxEmpty_mhnvy")
-theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_70i5f")
-theme_override_styles/disabled = SubResource("StyleBoxEmpty_mj5lg")
-theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_v86rl")
-theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_13sgg")
-theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_i6lef")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_g3eks")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_ufwb2")
 theme_override_styles/normal = SubResource("StyleBoxEmpty_4ytvr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ufwb2")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_g3eks")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_i6lef")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_13sgg")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_v86rl")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_mj5lg")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_70i5f")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_mhnvy")
 text = "Fun"
 
 [node name="leave" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 4
-theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_colors/font_color = Color(1, 1, 1, 0.478431)
 theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
 theme_override_colors/font_pressed_color = Color(0.8, 0, 0, 0.933333)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("3_mhnvy")
 theme_override_font_sizes/font_size = 66
-theme_override_styles/focus = SubResource("StyleBoxEmpty_mhnvy")
-theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_70i5f")
-theme_override_styles/disabled = SubResource("StyleBoxEmpty_mj5lg")
-theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_v86rl")
-theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_13sgg")
-theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_i6lef")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_g3eks")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_ufwb2")
 theme_override_styles/normal = SubResource("StyleBoxEmpty_4ytvr")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_ufwb2")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_g3eks")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_i6lef")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_13sgg")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_v86rl")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_mj5lg")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_70i5f")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_mhnvy")
 text = "Leave"
 
 [node name="Label" type="Label" parent="."]
