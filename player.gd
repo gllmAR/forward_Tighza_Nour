@@ -36,7 +36,7 @@ func _physics_process(delta: float) -> void:
 			sliding = false
 
 	# jump
-	if Input.is_action_just_pressed("ui_accept") and jumps_done < MAX_JUMPS and not sliding:
+	if Input.is_action_just_pressed("jump") and jumps_done < MAX_JUMPS and not sliding:
 		velocity.y = JUMP_VELOCITY
 		jumps_done += 1
 
